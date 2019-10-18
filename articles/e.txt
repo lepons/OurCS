@@ -1,0 +1,48 @@
+
+Using the same network analysis used to identify criminal organisations, new research examines how men work in the film industry. Shutterstock
+Women aren’t the problem in the film industry, men are
+This week Australia’s screen producers will gather at their annual conference to discuss the state of the industry. One of the many hot topics under review is the federal government’s recent attempt to address the industry’s woeful gender equity record.
+
+Since the federal government began systemically funding film production in the 1970s, participation rates for women in key creative roles (producer, director, writer) have never even remotely approached parity.
+
+In response, late last year the national funding agency, Screen Australia, launched a policy response, Gender Matters, largely designed to assist women at the level of project and career development. It’s hard to see these tentative initiatives doing more than reiterating that the key problem for addressing gender inequity lies with women themselves.
+
+This was scandalously underlined last week when the Screen Australia Head of Production, Sally Caplan, speaking at the Athena Project forum, declared that what the organisation was really trying to put in process was “a system whereby organically we’ll get to 50/50” once women are able to “believe in themselves”.
+
+Like Screen Australia, industry commentators typically place the burden for women’s omission from the screen industries on women themselves, rather than seeking to examine the specific dynamics of what must now be plainly called a deeply ingrained pattern of injustice. This is subtly reiterated by the regular release of statistics describing how women are missing from film industries around the globe.
+
+But what if, after 40 years of intransigent inequality, we shifted focus and instead turned to address specifically those who benefit from maintaining the status quo?
+
+Research data shows that films with male producers, on average, have creative teams that are 70% male. Similarly, the average creative team for a film with female producers is 60% male. No matter the gender of the producer, key creative roles for men predominate.
+
+What if we used industry data to demonstrate the impact of dominant behaviours, and to inspire new approaches to encourage change in the industry?
+
+This is what we did. We analysed data describing all the key creative roles in films submitted to the AACTA awards between 2006 and 2015. This data includes information on 205 films, which generated 997 key creative jobs.
+
+Using a technique known as Social Network Analysis, we are able to observe how the film industry operates as a series of creative networks in which male-only or male-dominated creative teams thrive.
+
+
+This diagram represents the Australian film industry’s producer networks; that is, who is working with whom. Women are represented by orange dots, and men by purple (the data has been anonymised). Author provided
+Even more specifically, we can use associated techniques such as Criminal Network Analysis to understand how to disrupt networks of what we might call “gender offenders” (men who work predominantly with other men).
+
+Typically Criminal Network Analysis has been used by police and counter-terrorism agencies – for example, identifying how drug cartels and terrorist networks cohere and how they can be most effectively fragmented. It could also be used to make evidence-based interventions in the film industry’s male dominated creative networks.
+
+For example, using Criminal Network Analysis we have identified which individual producers have the most influence throughout the film industry
+
+We can also measure the significance of specific male producers to maintaining the cohesion of male dominance in the industry and therefore exactly how much impact their absence would have in terms of fragmenting the network.
+
+The network data visualisation below is not really a pretty picture. It describes the relationships between male producers in the Australian film industry over a ten year period. During this time, 89 men in our dataset worked exclusively with other men in key creative roles. That’s around 40% of the total number of male producers.
+
+
+Every point on this diagram represents a male film producer. The pink dots represent men who worked exclusively with other men in the period surveyed, and the green dots represent those who worked with women. Author provided
+Of course some of these men may have worked with women in other parts of the industry (television or commercials for instance). Or they may have worked with women who have not been credited for their contribution. But interestingly, about 30% of the films made by these male-only teams were also nominally about men, with a male pronoun in the title – The Railway Man, Cedar Boys, Son of Gun and The Boys are Back, just to name a few.
+
+Perhaps most astonishing, more than 75% of the male producers in the industry worked on films during this ten-year interval with only one or no women in key creative roles.
+
+It is our belief that many women and some men would try and act against the unrelenting dynamics that ensure male dominance if they understood how and why these dynamics work.
+
+Male dominance will not decline until there is a different distribution of the film industry’s finite resources, one that is based on reducing the number of men, rather than by using equity measures to “just add women” onto existing production teams.
+
+Unless we know how men control the film industry and unless we understand how they influence the industry’s institutional and social processes, our hopes for developing equitable participation in the industry are unlikely to succeed.
+
+There is no need to maintain the smokescreen around the problem of male domination in the Australian screen industries any longer. The historically consistent lack of equity for women in the film industry is not inevitable, but is caused by identifiable networks of people. Using techniques like Social Network Analysis we can now see this all too clearly.

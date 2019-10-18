@@ -1,0 +1,42 @@
+Unraveling what’s holding back women economists in academia
+When it comes to academic success female scientists are – on average – usually behind their male counterparts. They receive academic tenure less often and win fewer awards.
+
+This gender gap exists in the academic discipline of economics, too. In 2016, less than 15% of all economics professors were women.
+
+Data I’ve collected and worked with during my PhD shows that women are also less central in the social network of informal collaboration. This refers to the process among academics of providing feedback and helping other authors to improve their work through comments and engagements. Such networks enable the global flow of knowledge, which is crucial for research.
+
+My data suggests that men’s attitudes might be part of what’s keeping women in a subfield of economics from occupying a central position in the social network of informal collaboration.
+
+Fewer women
+
+The data focuses on financial economics, the field that deals with financial crises, inflation, banking, and corporate finance.
+
+The dataset contains 14,529 researchers whose names appear in published research articles in major financial economics journals between 1997 and 2011. They are either authors, acknowledged commenters, or both. An acknowledged commenter is a person who advised the authors and helped guide or inform their thinking; their assistance is noted in the acknowledgements section of any journal article or book.
+
+Across all the years, only 18% of the authors are female. This disparity between male and female authors alone exemplifies the gender gap. It’s also striking that female commenters only account for 11% of the total. This means that authors do not regularly turn to women economists for advice.
+
+This low share of women commenters and authors is problematic for two reasons. The first is a lack of diversity. US Federal Reserve Governor Lael Brainard recently reiterated why diversity is so valuable: it helps bringing out better ideas.
+
+The second relates to the role that informal collaboration plays in the social network of financial economics as an academic discipline. People exchange information on conferences, during visits at other institutions or in phone calls. This information includes learning about unpublished results, emerging trends, new ideas, promising datasets and more. Nowadays a researcher has to be active even before their research is published. That’s why being part of the conversation matters.
+
+Those who aren’t central to such networks – in the case of my research and data, women – are simply less likely to receive relevant information than those who wield great influence: men. They are left out of the conversation.
+
+A standard hypothesis is that women network differently – and less effectively – than men. There is anecdotal evidence that women shy away from networking for various reasons. One is that women are often less self-assured, thinking their work will speak for their competence and that no advertising is necessary.
+
+My data allowed me to test – and disprove – this hypothesis. Acknowledgements tell us a great deal about networking behaviour, because authors also use this part of an article to list conferences and seminars at universities where they presented their research.
+
+
+Michael E Rose
+As this figure shows, my data reveals that articles written by only women display more informal collaboration per author than those written exclusively by men. A group of female authors, on average, present their article more often and speak to more people than a group of male authors or a mixed-gender author group.
+
+So the issue is not that women network less. Instead, they network more. Why, then, are they acknowledged less frequently?
+
+Women aren’t asked for advice
+
+
+Michael E Rose
+My data shows that male authors, on average, are either not asking women for advice or are not acknowledging the advice they get from women. This might be one reason why women are participating less in the tangled networks of world-leading research.
+
+We do not know at this stage why men acknowledge women less often. One plausible explanation is men’s broader attitude towards women in society and at work. Studies on women on the workplace suggest that men perceive women as less creative or and that women have to work far harder than men to be seen as equally competent. This might be case here as well.
+
+A recent Nature post put it very well: “Women aren’t failing at science, science is failing at women”. In our case, it’s male scientists – financial economists – who are “failing at women”.
