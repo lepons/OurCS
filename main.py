@@ -1,13 +1,13 @@
-from sklearn.datasets import fetch_20newsgroups
-from sklearn.feature_extraction import text 
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import NMF, LatentDirichletAllocation
 from os import listdir
 from os.path import isfile, join
 from sklearn.metrics.pairwise import cosine_similarity
 import sys
 import re
 import pandas as pd
+from nltk.stem.porter import *
+from sklearn.feature_extraction import text
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 def calculate_cosine_similarity(documents, folder_path, topic_terms_list, no_features=1000):
     files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
@@ -26,6 +26,7 @@ def get_document_from_folder(folder_path):
     """get a list of string of files content from the folder"""
     files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
     articles = []
+    stemmer = PorterStemmer()
     for fileName in files:
         with open(folder_path+fileName, 'rb') as f:
             fileContent = f.read()
@@ -34,6 +35,7 @@ def get_document_from_folder(folder_path):
             fileContent = pattern.sub('', fileContent)
             fileContent = re.sub('\s',' ',fileContent)
             fileContent = re.sub('\d+','',fileContent)
+            fileContent = ",".join([stemmer.stem(word) for word in fileContent.split(" ")])
         articles.append(fileContent)
     return articles
 
@@ -73,11 +75,9 @@ def get_LDA_topics(documents, no_features=1000, no_topics=20, no_top_words=10, d
 
 
 def main():
-    # grab a list of articles as a string list
     folder_path = "./articles/"
     documents = get_document_from_folder(folder_path)
-    get_LDA_topics(documents, display=0)
+    get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
     calculate_cosine_similarity(documents, folder_path, ["women", "men"])
-
 if __name__ == "__main__":
     main()
