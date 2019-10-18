@@ -1,16 +1,19 @@
-from sklearn.datasets import fetch_20newsgroups
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.decomposition import NMF, LatentDirichletAllocation
 from os import listdir
 from os.path import isfile, join
-import sys
 import re
+import pandas as pd
+
+from nltk.stem.porter import *
+from sklearn.feature_extraction import text
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 
 def get_document_from_folder(folder_path):
     """get a list of string of files content from the folder"""
     files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
     articles = []
+    stemmer = PorterStemmer()
     for fileName in files:
         with open(folder_path+fileName, 'rb') as f:
             fileContent = f.read()
@@ -19,6 +22,7 @@ def get_document_from_folder(folder_path):
             fileContent = pattern.sub('', fileContent)
             fileContent = re.sub('\s',' ',fileContent)
             fileContent = re.sub('\d+','',fileContent)
+            fileContent = ",".join([stemmer.stem(word) for word in fileContent.split(" ")])
         articles.append(fileContent)
     return articles
 
@@ -43,7 +47,9 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
         LDA model
     """
     # vectorize the documents
-    tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, stop_words='english')
+    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
+    # stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words)
+    tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words))
     tf = tf_vectorizer.fit_transform(documents)
     tf_feature_names = tf_vectorizer.get_feature_names()
 
@@ -57,10 +63,9 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
 
 def main():
-    # grab a list of articles as a string list
     folder_path = "./articles/"
     documents = get_document_from_folder(folder_path)
-    get_LDA_topics(documents, display=1)
+    get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
 
 
 if __name__ == "__main__":
