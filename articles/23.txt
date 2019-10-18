@@ -1,0 +1,30 @@
+Employers Used Facebook to Keep Women and Older Workers From Seeing Job Ads. The Federal Government Thinks That’s Illegal.
+In a first, the U.S. Equal Employment Opportunity Commission has ruled that companies violated civil rights law through their use of Facebook’s targeting advertising.
+
+MACHINE BIAS
+Investigating Algorithmic Injustice
+
+ProPublica is a nonprofit newsroom that investigates abuses of power. Sign up for ProPublica’s Big Story newsletter to receive stories like this one in your inbox as soon as they are published.
+
+Two years ago, ProPublica and The New York Times revealed that companies were posting discriminatory job ads on Facebook, using the social network’s targeting tools to keep older workers from seeing employment opportunities. Then we reported companies were using Facebook to exclude women from seeing job ads.
+
+Experts told us that it was most likely illegal. And it turns out the federal government now agrees.
+
+A group of recent rulings by the U.S. Equal Employment Opportunity Commission found “reasonable cause” to conclude that seven employers violated civil rights protections by excluding women or older workers or both from seeing job ads they posted on Facebook.
+
+
+The decisions stem from complaints filed by the Communications Workers of America, the American Civil Liberties Union and plaintiff’s attorneys after our reporting. The agency made the rulings in July, but they are becoming public now as part of a separate pending class-action suit in federal court accusing companies of age discrimination.
+
+The ads are all from 2018 or earlier. Since then, Facebook has agreed in a settlement to make sweeping changes to the way employers, landlords and creditors can target advertising. The changes are scheduled to take effect by the end of the year.
+
+A Facebook spokesperson pointed to the company’s recent changes and said, “Helping prevent discrimination in housing, employment or credit ads is an area we believe we lead the advertising industry.”
+
+In the latest rulings, the EEOC cited four companies for age discrimination: Capital One, Edwards Jones, Enterprise Holdings and DriveTime Automotive Group. Three companies were cited for discrimination by both age and gender: Nebraska Furniture Mart, Renewal by Andersen LLC and Sandhills Publishing Company. The companies can now work out a settlement with the EEOC or go to court.
+
+Most of the companies did not immediately respond to requests for comment. Nebraska Furniture Mart declined to comment. A spokesperson for financial firm Edwards Jones said, “We strongly disagree with the claim that our firm engaged in discriminatory practices in advertising of job opportunities, recruiting or hiring.”
+
+Dozens of other complaints have been filed with the EEOC about discrimination in targeted advertising on Facebook. Most of the allegations are still pending.
+
+The EEOC’s batch of decisions are significant, attorney Peter Romer-Friedman of Outten & Golden says, because they are the first time companies besides Facebook have had to defend how they use Facebook’s tools to advertise jobs.
+
+His firm also filed a suit against seven real estate companies last week for allegedly discriminating by age in housing ads. We first reported on discriminatory housing ads on Facebook three years ago. The company changed its process for screening housing ads after we retested the system two years ago and showed it was possible to buy dozens of ads that excluded people by gender, race, religion, national origin, age and other categories protected by civil rights laws.
