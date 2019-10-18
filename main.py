@@ -9,6 +9,56 @@ from sklearn.feature_extraction import text
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 
+def articles_in_descending_relevance(folder_path, relevance_results):
+    files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+    # print(similarity_results)
+    ranking = sorted(range(len(relevance_results)),key=relevance_results.__getitem__, reverse = True)
+    articles_with_relevance = []
+    for i in ranking:
+        rel_with_filename = []
+        rel_with_filename.append(relevance_results[i])
+        rel_with_filename.append(files[i])
+        articles_with_relevance.append(rel_with_filename)
+    return articles_with_relevance
+    # print(ranking)
+    # print(similarity_results[ranking[0]])
+
+
+def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
+    #get base vector
+
+    with open(query_file) as file:
+        words = file.read().split()
+        #count frequency
+        wdict = {}
+        for w in words:
+            if w in wdict:
+                wdict[w] += 1
+            else:
+                wdict[w] = 1
+        #get vocab and freq array
+        vocab = []
+        queryvector = []
+        for w in wdict:
+            vocab.append(w)
+            queryvector.append(wdict[w])
+
+        files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+        tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
+        tf = tf_vectorizer.fit_transform(documents)
+        doc_term_matrix = tf.todense()
+        # show counterVectorizer result 
+        # df = pd.DataFrame(doc_term_matrix,
+        #               columns=tf_vectorizer.get_feature_names(),
+        #               index=files)
+        # print(df)
+        similarity_results = []
+        for vector in doc_term_matrix:
+            # print(cosine_similarity([queryvector], vector))
+            sim_result = cosine_similarity([queryvector], vector)
+            similarity_results.append(sim_result[0][0])
+
+        return similarity_results
 
 def get_document_from_folder(folder_path):
     """get a list of string of files content from the folder"""
@@ -141,7 +191,9 @@ def main():
     documents = get_document_from_folder(folder_path)
     lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
-    calculate_cosine_similarity(documents, folder_path, query_path)
+    # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
+    results = calculate_cosine_similarity(documents, folder_path, query_file)
+    print(articles_in_descending_relevance(folder_path, results))
 
 
 if __name__ == "__main__":
