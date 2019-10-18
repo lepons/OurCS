@@ -4,11 +4,23 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 from os import listdir
 from os.path import isfile, join
+from sklearn.metrics.pairwise import cosine_similarity
 import sys
 import re
 import pandas as pd
 
-
+def calculate_cosine_similarity(documents, folder_path, topic_terms_list, no_features=1000):
+    files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+    # my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
+    tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = topic_terms_list)
+    tf = tf_vectorizer.fit_transform(documents)
+    doc_term_matrix = tf.todense()
+    # print(tf)
+    df = pd.DataFrame(doc_term_matrix, 
+                  columns=tf_vectorizer.get_feature_names(), 
+                  index=files)
+    print(df)
+    # print(cosine_similarity(df, df))
 
 def get_document_from_folder(folder_path):
     """get a list of string of files content from the folder"""
@@ -33,7 +45,7 @@ def display_topics(model, feature_names, no_top_words):
         print(" ".join([feature_names[i] for i in topic.argsort()[:-no_top_words - 1:-1]]))
 
 
-def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, display=0):
+def get_LDA_topics(documents, no_features=1000, no_topics=20, no_top_words=10, display=0):
     """ generate LDA model from document
 
     Attributes:
@@ -47,7 +59,6 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
     """
     # vectorize the documents
     my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
-    # stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words)
     tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words))
     tf = tf_vectorizer.fit_transform(documents)
     tf_feature_names = tf_vectorizer.get_feature_names()
@@ -65,8 +76,8 @@ def main():
     # grab a list of articles as a string list
     folder_path = "./articles/"
     documents = get_document_from_folder(folder_path)
-    get_LDA_topics(documents, display=1)
-
+    get_LDA_topics(documents, display=0)
+    calculate_cosine_similarity(documents, folder_path, ["women", "men"])
 
 if __name__ == "__main__":
     main()
