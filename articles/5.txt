@@ -1,0 +1,49 @@
+Why Tech’s Approach to Fixing Its Gender Inequality Isn’t Working
+Two ways tech companies often try to improve their cultures for women are through unconscious bias training and mentorship programs. But these programs often fall short of their goals. Unconscious bias training attempts to combat bias in the workplace, but existing research demonstrates that such training can, at best, be ineffective, and at worst, exacerbate bias. Mentorship and development programs aim to increase women’s skills and confidence to help them advance, yet women continue to be under-represented in leadership.
+
+In new research recently published in Gender & Society, I spent a year conducting an in-depth case study of one large Silicon Valley technology company implementing a gender equality initiative, which included unconscious bias trainings and mentorship programs. I found that these programs tend to place blame for inequality, and responsibility for addressing it, on individuals. They’re rooted in the belief that if men can be taught to limit unconscious bias (particularly when making important decisions such as hiring and promotion), and women can be taught to behave more assertively and demonstrate valued skills (through mentorship), then perhaps gender inequalities can be reduced.
+
+But this thinking fails to do one important thing: hold the organization responsible for the role it plays in causing inequality.
+
+And past research shows that organizations contribute to inequality in varied ways: through referral hiring that leads to narrow pipelines of candidates from similar backgrounds; through subjective evaluation criteria that open the door to bias during performance evaluations; and through a lack of transparency and accountability in pay decisions that leads to unfairness in who gets rewarded.
+
+My work suggests that if tech companies want to attract and retain women, they can’t place the blame on individuals — they need to recognize the role their policies and culture play in causing inequality, and they need to pursue organizational change. Implementing broader recruiting strategies, specific and measurable performance evaluation criteria, and transparent procedures for assigning compensation will go a long way toward reducing gender inequality in tech.
+
+The problem with focusing on individuals
+To study how the company approached gender equality, I conducted 50 in-depth interviews with 37 high-level executives throughout every department. I focused on interviewing the executives primarily responsible for implementing the company’s gender equality initiative. I also observed 80 meetings tied to the initiative, including “subcommittee meetings” held within departments, unconscious bias trainings, women’s development meetings, and cross-departmental planning meetings.
+
+I found that executives tended to focus on teaching women to fit the existing mold in order to advance in senior leadership, instead of on how they might change the mold.
+
+During my year of observation, I noted a flier advertising an upcoming women’s initiative event. The flier essentially said: It starts with you. Have you ever thought about why you don’t put yourself forward or how you may be holding yourself back? Join us to explore the unwritten rules that exist in organizations and those we imagine.
+
+By implying that women “imagine” unwritten rules — rather than acknowledging what may be unfair organizational practices holding them back — the flier’s message holds women responsible for creating their own obstacles.
+
+When I asked Mary (all names are pseudonyms), an executive from a technical department, what would help improve women’s advancement, she told me, “Well, not becoming a man, but thinking more like one. […] That’s the biggest nut to crack in women moving up in the organization along with the men.”
+
+Executives also emphasized efforts to train employees on recognizing and curbing their own biases. For example, Daniel, an executive from a technical department, told me he opposed implementing quotas in hiring and promotion and instead favored approaches that rely on individuals monitoring their own biases.
+
+While such trainings can provide a great start, individuals can only do so much to “self-correct” their own biases. And research has found that providing training without also emphasizing a shared commitment to broader organizational change can actually exacerbate bias. In the company I studied, this focus on changing individuals tended to reinforce rather than challenge executives’ assumptions about gender stereotypes, such as the belief that men are more suited for technology than women. For example, Linda, an executive from a technical department, told me, “[Men] are just kind of wired that way, and I think women are not as wired that way.” This thinking did not help women’s advancement.
+
+The problematic “pipeline” argument
+I frequently heard the so-called “pipeline” argument: the idea that girls and young women lack the same interest or talent for technology as boys and young men, which causes inequalities later in their careers. Rohan, an executive from a business operations department, explained that women are underrepresented in engineering fields generally, and therefore his company “is no different than any other tech company.” He added, “I mean, it just takes time to move the needle, right? […] Are we moving fast enough? I think the entire industry is moving slower, but I think that’s, again, because there [are] big boat anchors that we have to overcome.”
+
+Mike, an executive from a sales department, similarly told me, “The question I have is: do we really have a problem? Does [our company] have a problem? From the data I’ve seen, I don’t think so. I think the industry and this country potentially has a problem.”
+
+This line of thinking locates the source of the problem outside the organization, in larger cultural factors. While cultural factors certainly contribute, focusing on them made some executives defeatist and complacent — they believed the organization was incapable of doing much to solve the problem, and they didn’t seek to effect change themselves. In departments led by executives who framed the problem as a cultural one and not an organizational one, not much got done when it came to the gender equality initiative. Mike’s department, for example, did very little to advance the initiative — and neither did Rohan’s.
+
+On the other hand, the few executives who did not outsource the problem of inequality to larger cultural forces did take steps to change organizational practices. For example, one leader from a technical department hosted a recruiting event for women and recognized top-performing women in their annual performance review process.
+
+An organizational approach to equality
+Unconscious bias trainings and mentorship programs can certainly help employees identify areas of bias and work toward changing them. But organizations shouldn’t stop there. Individuals alone cannot eliminate structural inequalities in the way people are hired, evaluated, promoted, and rewarded. Change agents within tech must also focus efforts on bucking broader cultural and societal norms, starting with making their own organizational procedures fair and equitable.
+
+Although thinking about organizational inequality may not come naturally to many executives, scholars have identified some important ways organizations can contribute to — or mitigate — inequality:
+
+Broaden recruiting efforts. Instead of relying on traditional channels that may focus on a narrow subset of qualified candidates, engage in more diverse sourcing. For example, recruit at historically black colleges or universities outside your typical list. Attend conferences that feature women and people of color, or host your own recruiting events for diverse audiences. Then eliminate bias in your recruiting presentations and materials, job ads, and interview question — for example, by featuring diverse role models, avoiding the use of gender stereotypes, and emphasizing a broad definition of success. Consider using coding challenges like GapJumpers to replace resume screens.
+
+Clarify criteria for hiring and evaluation. Research from the Stanford VMware Women’s Leadership Innovation Lab shows that a lack of clear criteria can lead to bias in evaluations. Establish transparent, measurable criteria for evaluating employees ahead of time, and hold managers accountable for giving employees specific feedback. Avoid using vague or ambiguous criteria like “high potential.” Women and people of color are often held to a higher bar, so make sure all employees are held to a consistent standard.
+
+Increase accountability and transparency in pay and promotion decisions. Research shows that organizations lacking transparency and accountability in pay and promotion decisions can experience “performance-reward bias,” where rewards are unfairly distributed among employees, with women and underrepresented minorities receiving fewer rewards than they deserve based on performance. Thus organizations should take steps to ensure that pay and promotion outcomes are clearly linked to employee performance.
+
+This can also extend beyond pay and promotion decisions — consider project allocation, for example. Are projects assigned to employees haphazardly, or is there a formal process to ensure projects are assigned fairly? What about choosing whom to recognize for team success? Or whom to terminate during lay-offs? Even consider who gets the most airtime during meetings. Think broadly about how to ensure rewards, recognition, and influence are allocated fairly.
+
+By considering how everyday organizational practices can be improved, we can move beyond programs that seek to address only the biases locked within people’s heads — we can begin to address structural forms of bias as well.

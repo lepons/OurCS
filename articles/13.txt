@@ -1,0 +1,50 @@
+If Women Don’t Apply to Your Company, This Is Probably Why
+“I’d love to hire more women, but when I post a job, they don’t apply. They’re not interested.”
+
+“There just aren’t enough qualified women to do the job.”
+
+At the Stanford VMware Women’s Leadership Lab, where we work with leading companies to help them attract, retain, and advance a diverse pool of talent, we hear comments like these quite a bit. And every time we are reminded of the art of fishing: If you don’t catch a fish, you don’t blame the fish. You change your technique.
+
+It’s time for leaders to stop blaming their companies’ lack of diversity on the lack of women applicants. They need to focus on why they’re not seeing more women applicants. They need to ask, “Why is my organization not attractive to women?”
+
+Research from our Lab suggests that the answer might lie in the signals your company sends about its culture during the recruiting process.
+
+In a recent study, we had researchers attend 84 information sessions held by technology companies at a West Coast college; they took notes about the presentations, the mix of presenters, and the language and images used. To measure attendees’ engagement, we noted positive responses when attendees actively participated and asked questions, and negative ones when they remained silent or even walked out of the room.
+
+We found that women seemed less engaged when companies presented a culture in which women didn’t appear well-represented. For example, women asked fewer questions when presenters talked about a “work hard, play hard culture” that highlighted heavy drinking (e.g., fridges stocked with beer, beer pong games, social drink events) and favored working late into the night in the office. In many ways, this culture echoed stereotypes of a college fraternity culture.
+
+Women’s engagement also dropped when the presentation slides featured primarily images of men in active roles (e.g. astronauts, computer technicians, soldiers, and even raising their hands to ask questions) or women in seductive poses (e.g. a woman wearing a red, skin-tight dress holding a burning poker card, or a woman looking over her shoulder suggestively).
+
+Women attendees also appeared disengaged when the information sessions were led by men in technical roles, while women played purely supportive roles such as greeting people at the door, handing out t-shirts, or speaking about work-life balance — not the technology. Of the sessions we observed, less than a quarter featured women engineers presenting core technical content.
+
+When you isolate these data points, it’s easy to see why women seemed less than enthusiastic about these presentations and the companies behind them. After all, if the experts leading the sessions are mostly male or if the imagery in their presentations are mostly of men or don’t present women professionally — what are the chances that women are viewed as being equally capable as men at that company? If the “fun” culture being promoted or bragged about is one in which women may be less likely to be able to participate, what are the chances that women are seen as “fitting in” the company?
+
+These presentations sent signals that the companies — their workplaces and cultures — were male-advantaging. And women, consciously or not, picked up on them.
+
+Women also picked up on signals that indicated a company had a culture where they were more likely to thrive. Women were much more engaged in presentations that showcased women experts speaking about technology; that described multiple ways of gaining and demonstrating technical mastery; and that focused on the company’s mission, not just the kind of technical issues the coders faced. At these sessions, women asked twice as many questions and were far more likely to stay. So were more men.
+
+If companies broaden their idea of what makes someone successful, they can increase their chances of finding the right person for the job.
+
+For example, Carnegie Mellon University discovered that when they made some key changes to their computer science (CS) program, their percentage of women declaring CS majors climbed from 7% to 42% in just 5 years. The university first focused on the signals they sent in their communications. They broadened their definition of success by moving away from the prevalent stereotype of a geeky, obsessive CS major to focus instead on the “real-world training.” They also opened up pathways to the major: they stopped requiring prior high school experience in CS, and they offered students a chance to pursue CS in concert with other fields.
+
+The signals your company sends about its culture greatly influence whether you are able to attract — or alienate — women. And these signals go way beyond your website’s diversity and inclusion page. When deciding whether to join (or stay at) your company, candidates and employees may consciously or subconsciously pay attention to the following signals to gauge whether your workplace culture is one where they can thrive:
+
+The number of women and people of color in leadership roles. People often look at the leadership of a company to see if any of the leaders are like them, in ways such as gender, race, or age. A dearth of diversity in the leadership ranks often signals implicit bias in the promotion process — especially if your company hires lots of women at the entry level. If you’re not sure how bias is likely embedded in your workplace practices, this guide may be a useful starting point to diagnose bias so that you can block it.
+
+Narrow descriptors in job posts. Candidates intuitively understand that job posts and descriptions reveal what a company values. When posts are populated with terms like “ninja coder” and “wrestles problems to the ground” — imagery associated with men, fighting, and aggression—they are less likely to appeal to women. You can instead describe employees who are committed, creative problem solvers with phrases like “does what works” and “collaboratively solves problems,” which may be more likely to resonate with both men and women.
+
+Opportunities for growth. Women often must prove their abilities to be hired or promoted (i.e., must have exact experience in a similar role), while men are often promoted based on their potential. In fact, any candidate that does not match a “hidden template of success” will likely have to work harder to be seen as equally as qualified. As a result, candidates will look for signals that a company will give them a chance to “grow” their abilities.
+
+Experimental research by former Clayman Institute fellow Fiona Lee has found that job descriptions highlighting a company’s “learning experiences for employees at work” can encourage more women to apply than descriptions emphasizing the company’s value on bringing specific abilities, e.g., “ample opportunities for its employees to demonstrate their ability.” Another study has shown that mid-career technical women (and men) value opportunities to update their technical skills above other work benefits and perks. Companies that signal a culture where people are valued and developed are more likely to attract women candidates — and retain them.
+
+Some may worry that implementing these strategies risks opening the floodgates by allowing too many unqualified candidates to apply. “Why do we want our recruiters to spend more time screening applicants?” they argue. Just flip the question. Instead, ask: “Why do you want to deter top candidates from applying?”
+
+Opportunities for development and mentorship. One woman we interviewed, Mary Rosai, a senior vice president at Charles Schwab, told us that when she was asked to join an informal monthly lunch group for women, she wasn’t sure why women should meet separately from the men. As time went on, though, she saw the value of the group. Her colleagues shared career-enhancing strategies and leaned on each other through challenges.
+
+Rosai was such a believer in the value of her lunch group that she started to tell high-level women candidates about it during the hiring process. She found women were often surprised — and encouraged — by the presence of this group. So Rosai began to share about other similar development programs offered by Schwab, like its “mini-MBA” for high-potential directors and officers and the dozens of employee resource groups such as the women’s interactive network.
+
+Rosai told us that, time and time again, women candidates who heard about these development and mentorship programs responded enthusiastically. And these strategies were not only effective in attracting more women to Schwab. A newly hired man told her that he had been starved for professional development in his prior role, so the development programs she talked about were the reason he choose Schwab.
+
+Rosai realized that, to attract the best women, it was just as important to signal Schwab’s culture of commitment to people development as it was to signal its career opportunities or healthy compensation practices.
+
+By looking closely at the signals your company sends throughout its recruiting process, you can identify the aspects of your organization’s culture that are most likely to appeal to people of all genders and emphasize those. Once you take these steps, you can make lasting changes to ensure your culture — and the signals you send about it — can resonate broadly and rise above the noise.
