@@ -1,6 +1,10 @@
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
+from os import listdir
+from os.path import isfile, join
+import sys
+import re
 
 
 def display_topics(model, feature_names, no_top_words):
@@ -37,11 +41,26 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
 
 def main():
-    dataset = fetch_20newsgroups(shuffle=True, random_state=1, remove=('headers', 'footers', 'quotes'))
-    documents = dataset.data
+    # grab a list of articles as a string list
+    #currentpath = "./texts"
+    currentpath = sys.argv[1]
+    files = [f for f in listdir(currentpath) if isfile(join(currentpath, f))]
+    articles = []
+    for fileName in files:
+        with open(currentpath+fileName, 'rb') as f:
+            print(fileName)
+            fileContent = f.read()
+            fileContent = fileContent.decode('utf-8')
+            pattern = re.compile('([^\s\w]|_)+')
+            fileContent = pattern.sub('', fileContent)
+            fileContent = re.sub('\s',' ',fileContent)
+            fileContent = re.sub('\d+','',fileContent)
+        print(fileContent)
+        articles.append(fileContent)
+
+    documents = articles
     get_LDA_topics(documents, display=1)
 
 
 if __name__ == "__main__":
     main()
-
