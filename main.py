@@ -1,5 +1,5 @@
 from sklearn.datasets import fetch_20newsgroups
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 
@@ -15,10 +15,10 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
     Attributes:
         documents (list(str)): documents to process list of strings
-        no_features (int):
-        no_topics (int):
-        no_top_words (int):
-        display (boolean):
+        no_features (int): feature number
+        no_topics (int): numbers of topics to output
+        no_top_words (int): numbers of top words
+        display (boolean): if yes, print topics
     Return:
         LDA model
     """
