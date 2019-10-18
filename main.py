@@ -7,6 +7,22 @@ import sys
 import re
 
 
+def get_document_from_folder(folder_path):
+    """get a list of string of files content from the folder"""
+    files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+    articles = []
+    for fileName in files:
+        with open(folder_path+fileName, 'rb') as f:
+            fileContent = f.read()
+            fileContent = fileContent.decode('utf-8')
+            pattern = re.compile('([^\s\w]|_)+')
+            fileContent = pattern.sub('', fileContent)
+            fileContent = re.sub('\s',' ',fileContent)
+            fileContent = re.sub('\d+','',fileContent)
+        articles.append(fileContent)
+    return articles
+
+
 def display_topics(model, feature_names, no_top_words):
     """display the topics of from the LDA model"""
     for topic_idx, topic in enumerate(model.components_):
@@ -42,23 +58,8 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
 def main():
     # grab a list of articles as a string list
-    #currentpath = "./texts"
-    currentpath = sys.argv[1]
-    files = [f for f in listdir(currentpath) if isfile(join(currentpath, f))]
-    articles = []
-    for fileName in files:
-        with open(currentpath+fileName, 'rb') as f:
-            print(fileName)
-            fileContent = f.read()
-            fileContent = fileContent.decode('utf-8')
-            pattern = re.compile('([^\s\w]|_)+')
-            fileContent = pattern.sub('', fileContent)
-            fileContent = re.sub('\s',' ',fileContent)
-            fileContent = re.sub('\d+','',fileContent)
-        print(fileContent)
-        articles.append(fileContent)
-
-    documents = articles
+    folder_path = "./articles/"
+    documents = get_document_from_folder(folder_path)
     get_LDA_topics(documents, display=1)
 
 
