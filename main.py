@@ -1,10 +1,13 @@
 from sklearn.datasets import fetch_20newsgroups
+from sklearn.feature_extraction import text 
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 from os import listdir
 from os.path import isfile, join
 import sys
 import re
+import pandas as pd
+
 
 
 def get_document_from_folder(folder_path):
@@ -43,7 +46,9 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
         LDA model
     """
     # vectorize the documents
-    tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, stop_words='english')
+    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
+    # stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words)
+    tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words))
     tf = tf_vectorizer.fit_transform(documents)
     tf_feature_names = tf_vectorizer.get_feature_names()
 
