@@ -11,7 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import NMF, LatentDirichletAllocation
 
 
-# Util Functions 
+# Util Functions
 def get_document_names(folder_path):
     files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
     return files
@@ -22,6 +22,8 @@ def get_documents_content(file_list, folder_path):
     articles = []
     stemmer = PorterStemmer()
     for fileName in file_list:
+        if (fileName[0] == '.'):
+            continue
         with open(folder_path+fileName, 'rb') as f:
             fileContent = f.read()
             fileContent = fileContent.decode('utf-8')
@@ -34,14 +36,13 @@ def get_documents_content(file_list, folder_path):
     return articles
 
 
-def get_articles_with_descending_relevance(folder_path, relevance_results):
-    files = get_document_names(folder_path)
+def get_articles_with_descending_relevance(file_names, relevance_results):
     ranking = sorted(range(len(relevance_results)),key=relevance_results.__getitem__, reverse = True)
     articles_with_relevance = []
     for i in ranking:
         rel_with_filename = []
         rel_with_filename.append(relevance_results[i])
-        rel_with_filename.append(files[i])
+        rel_with_filename.append(file_names[i])
         articles_with_relevance.append(rel_with_filename)
     return articles_with_relevance
 
@@ -72,8 +73,7 @@ def get_queryvector(query_file):
     return vocab, queryvector
 
 
-def calculate_cosine_similarity(documents, folder_path, vocab, queryvector, no_features=1000):
-        files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
+def calculate_cosine_similarity(documents, vocab, queryvector, no_features=1000):
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
         tf = tf_vectorizer.fit_transform(documents)
         doc_term_matrix = tf.todense()
@@ -173,16 +173,24 @@ def main():
     n_top_words = 10
     folder_path = "./articles/"
     query_path = "./query.txt"
-    vocab, queryvector = get_queryvector(query_path)
+    data_path = "./kagglenews/"
 
     file_list = get_document_names(folder_path)
     documents = get_documents_content(file_list, folder_path)
+
+    data_list = get_document_names(data_path)
+    data_documents = get_documents_content(data_list, data_path)
     lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
+
+    vocab, queryvector = get_queryvector(query_path)
+
     # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
-    # results = calculate_cosine_similarity(documents, folder_path, vocab, queryvector)    
-    # print(get_articles_with_descending_relevance(folder_path, results))
-    print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
+    results = calculate_cosine_similarity(data_documents, vocab, queryvector)
+    sorted_results = get_articles_with_descending_relevance(data_list, results)
+    for r in sorted_results:
+        print(r)
+    # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
 if __name__ == "__main__":
     main()
