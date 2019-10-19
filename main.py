@@ -46,13 +46,11 @@ def get_articles_with_descending_relevance(folder_path, relevance_results):
     return articles_with_relevance
 
 
-def get_document_with_cos_rel(document_name, folder_path, queryvector):
+def get_document_with_cos_rel(document_name, folder_path, vocab, queryvector):
     file_list = [document_name]
     document_content = get_documents_content(file_list, folder_path)
-
-    cos_sim = calculate_cosine_similarity(document_content, folder_path, query_file)
-    print
-
+    cos_sim = calculate_cosine_similarity(document_content, folder_path, vocab, queryvector)
+    return cos_sim, document_name
 
 
 def get_queryvector(query_file):
@@ -71,11 +69,10 @@ def get_queryvector(query_file):
             if (len(winfo) == 2):
                 vocab.append(winfo[0])
                 queryvector.append(winfo[1])
-    return vocab,queryvector
+    return vocab, queryvector
 
 
-def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
-        vocab, queryvector = get_queryvector(query_file)
+def calculate_cosine_similarity(documents, folder_path, vocab, queryvector, no_features=1000):
         files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
         tf = tf_vectorizer.fit_transform(documents)
@@ -176,13 +173,16 @@ def main():
     n_top_words = 10
     folder_path = "./articles/"
     query_path = "./query.txt"
+    vocab, queryvector = get_queryvector(query_path)
+
     file_list = get_document_names(folder_path)
     documents = get_documents_content(file_list, folder_path)
     lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
     # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
-    results = calculate_cosine_similarity(documents, folder_path, query_path)    
-    print(get_articles_with_descending_relevance(folder_path, results))
+    # results = calculate_cosine_similarity(documents, folder_path, vocab, queryvector)    
+    # print(get_articles_with_descending_relevance(folder_path, results))
+    print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
 if __name__ == "__main__":
     main()
