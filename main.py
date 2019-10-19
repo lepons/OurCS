@@ -170,6 +170,7 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
 
 def main():
+    threshold = 0.6
     n_top_words = 10
     folder_path = "./articles/"
     query_path = "./query.txt"
@@ -188,8 +189,11 @@ def main():
     # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
     results = calculate_cosine_similarity(data_documents, vocab, queryvector)
     sorted_results = get_articles_with_descending_relevance(data_list, results)
+    above_thres = []
     for r in sorted_results:
-        print(r)
+        if (r[0] > threshold):
+            above_thres.append(r)    
+            print(r)
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
 if __name__ == "__main__":
