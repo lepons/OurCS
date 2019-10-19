@@ -168,6 +168,11 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
     return lda, tf_feature_names
 
+def avgcossim(results):
+    total = 0
+    for r in results:
+        total += r[0]
+    return total/len(results)
 
 def main():
     threshold = 0.6
@@ -185,14 +190,22 @@ def main():
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
 
     vocab, queryvector = get_queryvector(query_path)
+    # against the training set
+    print("AGAINST TRAINING SET")
+    results = calculate_cosine_similarity(documents, vocab, queryvector)
+    sorted_results = get_articles_with_descending_relevance(file_list, results)
+    for r in sorted_results:
+        print(r)
+    print(avgcossim(sorted_results))
 
-    # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
+    # with the kaggle dataset first 1000
+    print("AGAINST KAGGLE FIRST 1000")
     results = calculate_cosine_similarity(data_documents, vocab, queryvector)
     sorted_results = get_articles_with_descending_relevance(data_list, results)
     above_thres = []
     for r in sorted_results:
         if (r[0] > threshold):
-            above_thres.append(r)    
+            above_thres.append(r)
             print(r)
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
