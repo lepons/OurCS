@@ -3,6 +3,7 @@ from os.path import isfile, join
 import re
 import collections
 
+from numpy.linalg import norm
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import *
 from sklearn.feature_extraction import text
@@ -64,11 +65,15 @@ def build_query(model, feature_names, no_top_words, min_appearance=2):
     counter = collections.Counter(words_ls)
     counter = trim_counter(counter, min_appearance=2)
 
+    # normalize the counts
+    L2_norm = norm([value for _, value in counter.items()])
+
     # create a query text file
     file_path = "./query.txt"
     File_object = open(file_path, 'w')
-    for key in counter:
-        File_object.writelines(key + '\n')
+    for key, value in counter.items():
+        # compute the normalized value and add to query
+        File_object.writelines(key + ' ' + str(value/L2_norm) + '\n')
     File_object.close()
     return
 
@@ -86,7 +91,8 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
         LDA model
     """
     # vectorize the documents
-    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
+    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "la", "fri", "divis",
+                                "download", "httpsaboutjstororgterms", "new"]
     tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features,
                                     stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words))
     tf = tf_vectorizer.fit_transform(documents)
