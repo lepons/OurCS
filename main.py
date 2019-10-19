@@ -190,23 +190,34 @@ def main():
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
 
     vocab, queryvector = get_queryvector(query_path)
-    # against the training set
-    print("AGAINST TRAINING SET")
-    results = calculate_cosine_similarity(documents, vocab, queryvector)
-    sorted_results = get_articles_with_descending_relevance(file_list, results)
-    for r in sorted_results:
-        print(r)
-    print(avgcossim(sorted_results))
+    # # against the training set
+    # print("AGAINST TRAINING SET")
+    # results = calculate_cosine_similarity(documents, vocab, queryvector)
+    # sorted_results = get_articles_with_descending_relevance(file_list, results)
+    # for r in sorted_results:
+    #     print(r)
+    # print(avgcossim(sorted_results))
 
-    # with the kaggle dataset first 1000
-    print("AGAINST KAGGLE FIRST 1000")
-    results = calculate_cosine_similarity(data_documents, vocab, queryvector)
-    sorted_results = get_articles_with_descending_relevance(data_list, results)
+    # # with the kaggle dataset first 1000
+    # print("AGAINST KAGGLE FIRST 1000")
+    # results = calculate_cosine_similarity(data_documents, vocab, queryvector)
+    # sorted_results = get_articles_with_descending_relevance(data_list, results)
+    # above_thres = []
+    # for r in sorted_results:
+    #     if (r[0] > threshold):
+    #         above_thres.append(r)
+    #         print(r)
+
+    print("AGAINST EVENT REGISTRY 631")
+    file_list_from_er = get_document_names("./news_articles/")
+    documents_from_er = get_documents_content(file_list_from_er, "./news_articles/")
+    results = calculate_cosine_similarity(documents_from_er, vocab, queryvector)
+    sorted_results = get_articles_with_descending_relevance(file_list_from_er, results)
     above_thres = []
     for r in sorted_results:
-        if (r[0] > threshold):
-            above_thres.append(r)
-            print(r)
+        # if (r[0] > threshold):
+        above_thres.append(r)
+        print(r)
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
 if __name__ == "__main__":

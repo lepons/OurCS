@@ -1,0 +1,109 @@
+2019-10-17
+https://www.geekwire.com/2019/employee-microsofts-board-shareholder-proposal-floats-concept-board-calls-unnecessary/
+A shareholder resolution up for vote at Microsoft's Dec. 4 annual meeting asks the company to consider putting a rank-and-file employee on its board of directors -- citing "strained" relations with employees over controversial issues such as gender discrimination, sexual harassment, and government technology contracts.
+
+"Shareholders fear that these examples illustrate deficient responsiveness to employee concerns and low satisfaction at the company," the proposal reads, calling for the board to study the possibility of having an employee join its ranks.
+
+Microsoft's board recommends that shareholders vote against the proposal, saying in a lengthy response in the company's newly released proxy statement that it believes the idea is "unnecessary and will not enhance shareholder value."
+
+"Our existing director selection process is designed to identify and nominate the strongest director candidates from all available sources, including our employees," the board says in its response. "We believe an employee candidate for the Board of Directors should be evaluated by the same standards and criteria as any other candidate. This proposal would require us to deviate from our existing rigorous processes and could diminish the effectiveness of our Board."
+
+A non-management worker serving on the board of one of the most valuable U.S. companies would be highly unusual, if not unprecedented. The concept of employee representation on corporate boards, also known as "co-determination," is popular in Germany and other European countries, and it has gained momentum recently in the U.S. in progressive political circles.
+
+Microsoft's board has gotten larger and more diverse in recent years, but the only employee on the board is Microsoft CEO Satya Nadella.
+
+The resolution asks the Microsoft board to "prepare a report to shareholders describing opportunities for the company to encourage the inclusion of non-management employee representation on the Board."
+
+It's not yet clear if the resolution was submitted by an employee shareholder or outside investor.
+
+"Shareholders believe that our company can advance long-term value creation through a diverse board that includes non-management employee representation," the resolution says.
+
+The concept is truly a product of this era. Politicians like Senators Bernie Sanders and Elizabeth Warren are pioneering a new progressive movement that calls for "big structural change," as Warren likes to say, to address record income inequality in the economy.
+
+Buoyed by a tight labor market, tech workers and shareholders are pressuring companies to take a stand on political issues in a new brand of employee activism. That movement was born out of policies enacted by President Donald Trump's administration, like separating migrant families at the border.
+
+The proposal introduced this week appears to be influenced by Sanders and Warren, both of whom have included employee representation on corporate boards in their economic plans. Both senators are campaigning for president on platforms of reforming corporate America.
+
+The resolution refers specifically to Warren's plan, the Accountable Capitalism Act, which would require 40 percent of board directors to be selected by the corporation's employees at large U.S. companies. Sanders' proposal requires 45 percent of board directors at large firms to be employee-elected.
+
+The proxy statement, which lays out issues for the company's Dec. 4 annual meeting, shows a 66 percent pay raise for Nadella, to $42.9 million in total compensation, based in part on the board's view of his success "achieving aspirational goals for diversity goals in hiring and retention."
+
+A separate shareholder proposal this year asks Microsoft to prepare a report on the company's global median gender pay gap. Microsoft's board also recommends a vote against this proposal. The board says it disagrees with the process being proposed, citing its numerous existing diversity and inclusion initiatives.
+
+Employee activism has been growing in the tech industry for more than a year. Last summer, Google chose not to renew a contract for the Pentagon's Project Maven after 4,000 employees expressed concerns about their work being used for lethal purposes.
+
+Google and Amazon employees walked out recently to demand their employers take a bolder stance on climate change, joining a broader demonstration. And the Seattle software company Chef decided not to renew its contracts with immigration officials after employees expressed concerns and a former worker even deleted code he had written for the firm.
+
+But the Seattle region's first tech giant, Microsoft, has held firm in its resolve not to unplug government agencies even when the company vehemently disagrees with an administration's policies.
+
+"The only way we're going to achieve our goals is ultimately to change other peoples' minds," Microsoft President Brad Smith said in an interview with GeekWire last month. "If the only people we can work with are those who agree with us already, then we're probably just sentencing ourselves to a permanent state of gridlock."
+
+Shareholder activism is also on the rise. Earlier this year, Amazon shareholders submitted a record 11 independent resolutions. They focused on Amazon's controversial facial recognition technology, demands for more action on climate change, salary transparency, and other equity issues.
+
+Last year, hundreds of Microsoft employees sent an open letter to CEO Satya Nadella demanding the company end its contract with U.S. Immigration and Customs Enforcement. Nadella responded by condemning the Trump administration's immigration policies but the company did not cancel its contract.
+
+"I want to be clear: Microsoft is not working with the U.S. government on any projects related to separating children from their families at the border," wrote Nadella, who immigrated to the U.S. from India. "Our current cloud engagement with U.S. Immigration and Customs Enforcement (ICE) is supporting legacy mail, calendar, messaging and document management workloads."
+
+The shareholder behind the new resolution claims employee representation on the board could remedy some of these concerns.
+
+Here's the full text.
+
+Employee Representation on the Board of Directors
+
+WHEREAS:
+
+Our company's employees, including management and top performing engineers, are crucial to our ability to offer shareholders continued return on their investment. A 2018 Forbes article emphasized the need for retaining top employees by "focus[ing] on excellence in engagement'';
+
+However, in the past two years relations with our Company's employees have been strained:
+
+* Microsoft employees protested the company's alleged failure to curtail gender discrimination and sexual harassment. They reported sexual harassment and threats, as well as a pattern of women being unfairly passed over for promotions;
+
+* During the recent controversial separation of immigrant children from their families, over 300 employees wrote an open letter denouncing Microsoft's connection to Immigration and Customs Enforcement;
+
+* A group of employees argued that Microsoft "crossed the line into weapons development'' when they publicly dissented against Microsoft's military contract to develop augmented reality headsets for soldiers;
+
+Shareholders fear that these examples illustrate deficient responsiveness to employee concerns and low satisfaction at the company. A news story on the employee letter related to the ICE contract, quoted an employee stating that "in a week they managed to wipe away all the goodwill...";
+
+In 2018, the Accountable Capitalism Act was introduced into the U.S. Congress to combat "America's fundamental economic problems" such as companies' failure to reinvest proceeds in their operations, including employees;
+
+The Act would require that "boards ... include substantial employee participation ... ensur[lng] that no fewer than 40% of [a board's] directors are selected by the corporation's employees";
+
+Several European countries require employee representation on boards. Academic analysis of one such policy indicated a positive effect, stating that it "offer[s] advantages for technical efficiency, skill development and knowledge generation through its protection of specific human capital investments";
+
+A recent poll found that a majority of Americans "would support allowing employees at large companies to elect representatives to those companies' boards of directors...'';
+
+Shareholders believe that our company can advance long-term value creation through a diverse board that includes non-management employee representation.
+
+RESOLVED: Shareholders of Microsoft urge the Board of Directors to prepare a report to shareholders describing opportunities for the company to encourage the inclusion of non-management employee representation on the Board.
+
+SUPPORTING STATEMENT: The report should be prepared within one year, at reasonable cost and excluding proprietary and privileged information. The Board is encouraged to assess:
+
+1. Any legal, technical, practical, or organizational impediments to non-management employees gaining board nomination;
+
+2. Benefits and challenges associated with board membership by non-management employees;
+
+3. Opportunities or procedures through which non-management employees could gain nomination to the board, such as allocation of board slots for non-management employees, special board nomination processes for non-management employees, potential for building upon the company's existing proxy access provision, and any needed changes to corporate governance documents to accomplish such changes.
+
+And here is the board's statement on the resolution.
+
+The Board recommends that shareholders vote AGAINST this proposal for the following reasons:
+
+COMPANY STATEMENT IN OPPOSITION
+
+Our existing director selection process is designed to identify and nominate the strongest director candidates from all available sources, including our employees. We believe an employee candidate for the Board of Directors should be evaluated by the same standards and criteria as any other candidate. This proposal would require us to deviate from our existing rigorous processes and could diminish the effectiveness of our Board.
+
+An effective board of directors consists of individuals with a diverse and complementary blend of experiences, skills, and perspectives. As described in Part 1 - Governance and our Board of Directors - Director Selection and Qualifications, our Governance and Nominating Committee, along with the full Board, evaluates and recommends director nominees. In doing so, they carefully assess the specific qualifications of potential director nominees and determine whether they will contribute to an effective, diverse Board that operates openly and collaboratively to serve the best interests of all of our shareholders. As stated in Director Selection and Qualifications, the Board considers many factors, including general understanding of global business, sales and marketing, finance, and other disciplines relevant to the success of a large, publicly traded company; understanding of our business and technology; educational and professional background; personal accomplishment; and national, gender, age, and ethnic diversity.
+
+Our Board draws its strength and effectiveness from the broad perspective built into our nomination process. Our directors collectively have senior leadership experience at major domestic and international companies. They have key management skills, such as strategic and financial planning, public company financial reporting, compliance, risk management, leadership development, and international business. Many of our directors also have experience on boards of other global public companies, giving them a broad understanding of corporate governance practices and trends, challenges, and strategies.
+
+Any shareholder can recommend a prospective director candidate, including a Company employee, for the Board's consideration. We describe how to do this above in Part 1 - Governance and our Board of Directors - Director Selection and Qualifications - Shareholder Recommendations and Nominations of Director Candidates. The Governance and Nominating Committee will consider and evaluate nominees proposed by shareholders in the same manner as a nominee recommended by a Board member, management, search firm, or any other source. Giving non-management employees a dedicated position on the Board, a different process for board representation, or a different set of qualifications would undercut the role of the Governance and Nominating Committee and the Board in one of the most important and strategic elements of corporate governance.
+
+Having an independent board is a core element of our governance philosophy. Our Corporate Governance Guidelines provide that a substantial majority of our directors will be independent. Except for our CEO Satya Nadella and our co-founder Bill Gates, all of our current directors are independent. This proposal suggests we should add another director employed by Microsoft. This would decrease the number of directors who qualify as independent of the Company.
+
+We take an active interest in the health of Microsoft's culture, human resource management, and the employee experience. We have built accountability for these things into our executive compensation. As detailed in Part 2 of this Proxy Statement, our Named Executive Officers' annual cash incentives includes consideration of their performance on a variety of qualitative factors, including diversity and inclusion and workplace culture.
+
+Employees have numerous ways to be heard and exert influence outside of board representation. Establishing the best work environment we can for our employees is a key element of our continued success. Open and respectful communication is one of Microsoft's core values, and we have multiple channels for all stakeholders, including employees, to provide feedback to management. For example, our CEO and senior leaders regularly host company- and organization-wide meetings to provide business updates and answer questions posed by employees. Employees can raise questions at any time on the CEO Connection page on Yammer. We poll our entire employee population annually to collect feedback on management, strategy, culture, compensation, and a variety of other areas, and the Company's Chief Human Resource Officer presents a summary of that information to the Board annually. We encourage employees to raise issues or questions through our Open Door Policy, which states that employees can raise any concerns or questions to any member of management or to Human Resources. As we describe in our company-wide Standards of Business Conduct training, employees have multiple avenues to raise and have addressed, anonymously if they wish, any compliance or other concern. The askboard@microsoft.com email alias is a vehicle for submitting questions directly for the Board's attention.
+
+The Company takes information communicated through these venues very seriously, including feedback about culture, diversity, business practices, and compliance and regularly provides responses and updates on issues that employees raise. The Board, the Compensation Committee, and the Regulatory and Public Policy Committee engage with the Company's SLT and Human Resources executives across a broad range of human capital management topics including culture, succession planning and development, compensation, benefits, employee recruiting and retention, and diversity and inclusion.
+
+For these reasons, the Board believes that changing our board nomination and membership framework with respect to Company employees as outlined by this proposal is unnecessary and will not enhance shareholder value.
