@@ -1,0 +1,37 @@
+2019-10-19
+https://thestar.com/business/opinion/2019/10/19/women-in-top-jobs-are-good-for-bottom-lines-why-does-this-still-need-to-be-proven-in-2019.html
+Or the eve of a federal election, which reminds us of a fresh-faced government four years ago pointedly ensuring equal footing for women on the political stage.
+
+Here's some fresh evidence to keep prodding business to get up to speed: promoting women into the jobs of chief financial officer and chief executive officer really does pay.
+
+S&P Global Market Intelligence has done a deep dive into gender inclusion in the C-suite, stating the obvious first: the ratio of men to women in the top jobs remains wildly out of whack. We know this through serial statistical analyses from the likes of the Canadian Securities Administrators and Catalyst and others. The numbers budge, but barely.
+
+So too with this latest report. Combing through the Russell 3000 Index, S&P found a male-to-female CEO ratio of 19 male chief executive officers for every female CEO. For the chief financial officer the ratio is 6.5 to 1. The conclusion that female executives remain "grossly underrepresented in the C-suite" doesn't surprise.
+
+But what if the push-to-parity argument could be made on the basis of financial returns? Would corporations rethink that short list of potential successors? Would business re-examine how it goes about succession planning in the first place? How can companies ignore the bottom line?
+
+There have been earlier small-data attempts to get at this. This new analysis covers a 17-year period to the end of last May, encompassing close to 6,000 executive appointments from the time at which he, or she, stepped into the executive role.
+
+The headliner: firms with women CFOs not only had higher profitability, a point that has been argued in smaller studies, but maintained that profitability while the male CFO group experienced an erosion in profitability.
+
+Assessing female executives across both positions leads to evidence that women executives "drive greater value appreciation, improve price momentum, better defend profitability moats, and earn excess returns over their male counterparts."
+
+That value appreciation is arrived at by analyzing a company's market value -- the price of all outstanding stocks -- in relation to its book value, as in, what's on the company's books in the two years following the assumption of office by the female CEO or CFO. This may be a bit of a giveaway that the paper's author didn't have a non-business audience in mind, despite the use of the catchy hashtag #ChangePays.
+
+Given how tough it is to climb the executive ladder, it logically holds that women are held to a higher standard than male appointees. The study is inconclusive on that point, finding that boards of directors "may" be holding female appointees to a higher standard than their male counterparts. A higher standard means increased selectivity, which suggests that more qualified females are passed over in favour of a less qualified male. "If this is the case, it follows that the remaining pool of female contenders for C-suite positions remains richer with talent."
+
+In a departure from the work of other researchers, this study comes to a different conclusion about women executives and the assumption of risk. While lower financial leverage was employed by both female CEOs and CFOs upon taking office, that did not hold true in the period following.
+
+"Our analysis supports that firms with higher earnings quality and lower leverage are firms with a culture conducive to making a female appointment," the study found.
+
+This is fun: a language analysis of the S&P Capital IQ Professionals Dataset, a data base that includes education, job function, compensation etc., found a correlation between the language used to describe successful male executives and all female executives. The published study includes a sample of the most positive and most negative word associations for CEOs. Words such as Wharton, independent and technology (positive) versus prior, formerly and commercial (among the most negative).
+
+That may seem a curious piece of analysis, yet accepting that the features of success are more prevalent among the female executives leads to the conclusion that the male contingent "is relatively 'overfished'" compared with the female contingent and that appears "as a direct result of a bias preventing women from C-suite appointments."
+
+Glass ceiling, anyone?
+
+The route to the top is unquestionably complex. And perhaps the glass ceiling is too simple, and too outdated, a metaphor to cite.
+
+But this new research informs in concrete terms the cost to be paid when corporations fail to assess the executive power and potential of women. And it's not just about pushing women to the top executive spots. A higher female participation rate on boards of directors was also found when firms appoint a female CEO or CFO. "These observations further support the idea that diversity and inclusion are features that gradually infuse into the culture of a firm," the study finds.
+
+It's ridiculous that women have to argue their way in. It's ridiculous that women need to cite research to win what's due. It's ridiculous that I've been writing about this for three decades.

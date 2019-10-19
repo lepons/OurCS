@@ -1,0 +1,15 @@
+2019-10-16
+https://www.mariomedina.net/2019/10/15/grace-hopper-conference-2019/
+We are so excited about what just happened that we felt we should tell everyone about it!
+
+A group of 24 of us at Canonical from various teams including sales, HR and engineering, attended the Grace Hopper Celebration in Orlando, Florida. This year, it was an epic gathering of more than 26,000 people from all over the globe interested in tech. Despite its start as women's work, the tech industry has gained a reputation of being dominated by and mostly suited for men. In reality, this only made the Grace Hopper conference feel more impactful, especially knowing that in its very first edition in 1994, only 500 women were present at the event. The Grace Hopper Conference was an awesome celebration of women; diverse, multi-talented, and deeply skilled!
+
+Both women and men, mostly students, interested in everything from security to machine learning came by the Canonical booth to hear about Ubuntu. We brought along an Orange box so we could demo MaaS, Openstack, and other incredible technologies happening on Ubuntu at Canonical.
+
+We rotated attending informative and inspiring sessions; exploring an exhibition hall pulsating with energy and booths as far as the eye can see; and discussed Canonical offerings and job opportunities at our Canonical booth.
+
+There were so many best parts to the week. We discussed various technologies with others in the industry, scoped out exceptional talent for Canonical job opportunities, visited various booths and found out who uses Ubuntu and what for. We also gave out Ubuntu trinkets and collected bags of trinkets from others. Perhaps our favorite was just hanging out and getting to know fellow Canonical'ers on the various teams and what they worked on.
+
+All of us had the opportunity to share what we do and what we love about working for Canonical, the company behind Ubuntu. It was interesting for us that most of the people we met did not know the name 'Canonical', but knew and worked regularly with Ubuntu. Someone even said: "Ubuntu is the reason I chose this career!" and were very excited to talk to the people behind it.
+
+Meeting that many smart women in tech made us realize that we are not alone. Every one of us has the capacity to contribute and drive change. #WeWill make a difference. See you next year at GHC 2020!

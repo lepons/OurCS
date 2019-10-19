@@ -1,0 +1,21 @@
+2019-10-18
+https://www.microcapital.org/microfinance-paper-wrap-up-gender-discrimination-in-small-business-lending-evidence-from-a-lab-in-the-field-experiment-in-turkey-published-by-ebrd/
+By J Michelle Brock and Ralph De Haas, published by the European Bank for Reconstruction and Development, September 2019, 45 pages, available at https://www.ebrd.com/documents/oce/gender-discrimination-in-small-business-lending-evidence-from-a-lab-in-the-field-experiment-in-turkey.pdf
+
+This experiment involved presenting 334 loan officers in Turkey with eight actual loan applications. Each loan officer was asked to decide whether to accept or deny the application, as well as whether the loan applicant would be required to seek a guarantor
+
+to support the loan. Relative to the original loan applications, the only way the loan applications were changed was to randomize the gender of the applicant each time it was reviewed.
+
+The authors found that manipulating the gender of the applicants did not generally affect male or female loan officers' lending decisions. However, the authors did find that other traits of the loan officers were correlated with discriminatory lending behaviour. These traits include the loan officers' age, risk aversion and years of experience in microfinance. For example, younger loan officers and older loan officers with fewer years of experience in microfinance were more likely to ask women to provide guarantors than they were to ask men to do so. The same was true of loan officers who were found to be more risk-averse in general.
+
+As a result of the study, the authors argue that policies should be developed to overcome discriminatory lending practices. These may include, for example, setting benchmarks for lending to women without guarantors.
+
+EBRD working paper
+
+https://www.ebrd.com/documents/oce/gender-discrimination-in-small-business-lending-evidence-from-a-lab-in-the-field-experiment-in-turkey.pdf
+
+EBRD homepage
+
+https://www.ebrd.com
+
+Did you know that MicroCapital publishes the MicroCapital Monitor newspaper each month? Find out more at https://www.microcapital.org/products-page/.

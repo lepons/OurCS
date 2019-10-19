@@ -1,0 +1,73 @@
+2019-10-18
+https://www.sott.net/article/422228-Researchers-test-facial-recognition-technology-on-transgender-women-it-says-they-re-men
+It turns out that facial recognition technology doesn't work very well for transgender people.
+
+Researchers at the University of Colorado Boulder recently tested a number of leading AI-based facial analysis services on photos of cisgender, transgender and otherwise gendered Instagram users. They gathered the 2,450 photos by searching the hashtags #woman, #man, #transwoman, #transman, #agenderqueer or #nonbinary.
+
+According to the hyper-woke researchers, the names of the hashtags were "crowdsourced" exclusively from "queer, trans, and/or non-binary individuals."
+
+Overall, the facial recognition and detection services all proved very good at guessing the gender identity of cisgender people -- with an accuracy rate of about 98 percent for both men and women.
+
+However, the services performed significantly worse when it came to transgender people. Based on the Instagram photos, they classified transgender men as female, their birth sex, in nearly 30 percent of cases. And they classified transgender women as male about 23 percent of the time.
+
+Furthermore, because the facial analysis services can "see" only male or female, they failed to categorize 100 percent of the agender, genderqueer and nonbinary people according to their preferred gender identity.
+
+The services tested in the University of Colorado at Boulder study included Amazon's Rekognition, IBM's Watson, Microsoft's Azure and Clarifai. Assistant professor of information science Jed Brubaker oversaw the research, which was published in the November issue of the journal Proceedings of the ACM on Human Computer Interaction.
+
+Representatives of Amazon, IBM, Microsoft and Clarifai did not immediately respond to Pluralist's request for an interview. Nor did the authors of the study.
+
+In an update to its website in September, Amazon said that Rekognition should not be used to "categorize a person's gender identity" and is better suited to compute things like "the percentage of female users compared to male users on a social media platform," Quartz reported.
+
+Why transgender facial recognition are so problematic
+
+In the paper, the researchers said that "identity scholarship" has established that gender is a "fluid social construct." Meanwhile, they noted, a growing body of research indicates that facial analysis technologies suffer from both gender and racial bias.
+
+The MIT Media Lab in January found that Amazon's Rekognition misidentified darker-skinned women as men one-third of the time. The software also mislabeled white women as men at higher rates than it did white men as women.
+
+The University of Colorado researchers said the algorithms they studied are a "black box." But they speculated that the services had not been "trained" to process transgender faces, creating a problematic gender bias.
+
+When the researchers looked into the labeling of photos that some of the services do, they became even more concerned. They found that features like long hair and makeup appeared more likely to earn labels like "beautiful" and "pretty." And some labels -- like "halter (women's top)" and "women's shorts" -- seemed unnecessarily feminized.
+
+At the same time, the systems singled out beard and mustaches for labeling, which the researchers suspected were being used to as part of the gender categorization formula.
+
+The researchers warned that their findings suggest that high tech companies are reinforcing the "systemic marginalization" of non-cisgendered people.
+
+As an example, the researchers pointed to a nonbinary Instagram user whose photo they included in their study. The user wore "heavy winged eyeliner," and all the services categorized the user as a woman, the researchers said.
+
+However, the researchers objected, the services had failed to take into account that the user suffered "dysphoria" and "inner turmoil" when wearing makeup because of its unwanted association with femininity.
+
+Ultimately, the researchers concluded, gender identity is an internal characteristic that can never be judged by anyone else, let alone a computer.
+
+"Not only can 'man' and 'woman' exist within one image, labels can represent concepts independent of gender identity: men can wear makeup, women can have beards," they said.
+
+The notion that people have an innate gender identity separate from physical reality has lately gained traction with experts and in the culture. But not everyone has gotten on board. A number of scientists, philosophers and healthcare workers have argued that the idea is incoherent.
+
+A pair of scientists wrote last month in Quillette that in many cases transgender people are simply buying into stereotypes about men and women, and failing to appreciate the wide range of traits that can be displayed by each sex.
+
+"The fact is, no child is actually born in the wrong body," they said. "Adults should expand their understanding of what normal male and female behavior and preferences look like -- which would lead them to appreciate that being male or female comes with a wider range of personalities preferences, and possibilities than old stereotypes would have us believe."
+
+When in doubt, make it illegal
+
+For their part, the University of Colorado researchers suggested that tech companies consider "abandoning gender classification in facial analysis technology" altogether.
+
+At the very least, the researchers said, "Binary gender should never be an unquestioned default."
+
+Instead, they advised tech companies to lean into gender-neutral labels like "person," "people," and "human," which they said "provide inclusive information about the presence of human beings in a photograph."
+
+"If gender must be used" in facial recognition, the researchers said, companies should at least be aware of what "kinds of bias are being privileged and what kinds of bias are being made invisible."
+
+For example, it is acceptable to use the labels "woman" or "transgender" in an effort to hire more people from these disadvantaged identity groups, they said. But it is of course forbidden to discriminate against a transgender person.
+
+To protect against potential abuses, the researchers said, creators of facial analysis technologies should adopt progressive policies, and reassess them regularly, as "the concept of gender is shifting both socially and legally."
+
+The researchers also said that policymakers should expand laws against gender discrimination to prevent LGBT people from being harmed by the growing role of facial recognition technology in daily life, from smartphones to law enforcement.
+
+Rep. Alexandria Ocasio-Cortez, for one, has already hinted that she might support such regulations.
+
+"When tech companies develop algorithms that automate the assumptions of people from one demo, they start to automate subconscious bias," she tweeted in May, following a congressional hearing on facial recognition technology. "When those flawed algorithms get sold to law enforcement, it can be disastrous for anyone that doesn't look like most Silicon Valley engineers."
+
+Ocasio-Cortez's fellow "Squad" member, Democratic Rep. Rashida Tlaib of Michigan, has gone further.
+
+Earlier this month, Tlaib demanded that Detroit police chief James Craig only employ black people on his department's new facial recognition team because because "non-African Americans think African Americans all looks the same."
+
+However, Craig, who is black, immediately rejected the suggestion and later slammed it as "racist."

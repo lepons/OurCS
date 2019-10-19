@@ -1,0 +1,25 @@
+2019-10-17
+https://extranews.net/i-went-from-being-the-only-girl-to-finding-my-community-of-women-in-tech/
+This is the first in a series of interviews with women who work in tech at Prudential: what they do, how they got there, and their words of wisdom for anyone interested in pursuing a career in technology.
+
+When Elana Bobelis started getting interested in programming, she was often "the only girl" in her college classes -- and she sometimes wondered if she was making the right move. But a life-changing experience at Grace Hopper Celebration, a conference for women technologists, helped set her on the path to a tech career she loves.
+
+Now a database administrator and Senior Associate in the Individual Solutions Group at Prudential, Bobelis sat down with The Muse to talk about breaking into tech and finding the people who share your passion.
+
+I'm a database administrator, also known as a DBA, in Prudential's Individual Solutions Group. As a DBA I do installations and configurations, security, and monitoring. Essentially we use special software platforms to store and organize data for Prudential. My job includes making sure that data is secure and that our database is operating at optimal performance so we can make it as fast and as efficient as possible for the applications teams (the people who are actually using that data) to get what they need.
+
+In October 2017 I went to Grace Hopper Celebration. I was a senior at the University of Florida and was studying computer engineering, and my school sponsored my attendance at the conference. It was a series of workshops and also a job fair. I met a Prudential representative there, and was impressed with their great company culture and vision. I began with the company two months after I graduated from college.
+
+It's amazing. It's the largest gathering of women technologists in the world. Being female in tech, it's not common to be surrounded by other women. It was dynamic to be talking about very technical things like a project that you worked on and the program you used to write that code, and then just as naturally fall into conversation about hair and makeup and not feel self-conscious about it.
+
+So when you walk into this conference center, the first thing you notice is that it's filled with thousands of women and you realize how powerful that is: Wow, these are all women technologists. It's powerful to see so many people like yourself sharing the same passion.
+
+No. I always knew I wanted to create, but I didn't know what I really wanted to do. At first I studied industrial engineering, followed by biomedical engineering. Then I took a computer course and I loved programming. I took more classes, and I was often the only girl in a group project or the whole class. I was in a sorority, where a lot of my friends weren't in my field either. I would start to question: Is this what I really want to do? But then I went to Grace Hopper and seeing thousands of other women who also love technology, the spark in me ignited.
+
+I wanted to work in an environment that fosters growth, because one of the things I love about having a career in tech is it's not a static field. The only constant is change. And I wanted to find a workplace that welcomes personal and intellectual growth. It was really great to interview with Prudential at the conference, because I could see being part of the company's vision, planting seeds, and growing with them.
+
+People at Prudential value a strong work ethic, problem solving, and sharing their knowledge with one another. This foundation makes the relationships between the women of the company unique in that we genuinely enjoy supporting each other.
+
+I now work on a small team along with two other women I really look up to, and I am also fortunate to have some amazing female mentors at Prudential who either started out in the tech field or are working in tech now. Receiving career advice from a woman who knows what it is like to be in my shoes is something I will never take for granted.
+
+Follow your passion. I know that sounds cliché, but when you know what makes you smile, you will naturally be able to find an environment you can grow and thrive in. And be willing to change, because technology is ever changing! It's a very exciting field.
