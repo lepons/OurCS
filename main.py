@@ -23,31 +23,32 @@ def articles_in_descending_relevance(folder_path, relevance_results):
     # print(ranking)
     # print(similarity_results[ranking[0]])
 
-
-def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
-    #get base vector
-
+def get_queryvector(query_file):
+    """
+    Attributes: query_file path
+    Returns: vocab list , query vector (as a list)
+    """
     with open(query_file) as file:
-        words = file.read().split()
-        #count frequency
-        wdict = {}
-        for w in words:
-            if w in wdict:
-                wdict[w] += 1
-            else:
-                wdict[w] = 1
-        #get vocab and freq array
+        words = file.read().split('\n')
+        # create word vector for query
         vocab = []
         queryvector = []
-        for w in wdict:
-            vocab.append(w)
-            queryvector.append(wdict[w])
+        numwords = 0
+        for w in words:
+            winfo = w.split(' ')
+            if (len(winfo) == 2):
+                vocab.append(winfo[0])
+                queryvector.append(winfo[1])
+    return vocab,queryvector
 
+
+def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
+        vocab, queryvector = get_queryvector(query_file)
         files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
         tf = tf_vectorizer.fit_transform(documents)
         doc_term_matrix = tf.todense()
-        # show counterVectorizer result 
+        # show counterVectorizer result
         # df = pd.DataFrame(doc_term_matrix,
         #               columns=tf_vectorizer.get_feature_names(),
         #               index=files)
@@ -150,44 +151,6 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
 
     return lda, tf_feature_names
 
-
-def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
-    #get base vector
-
-    with open(query_file) as file:
-        words = file.read().split()
-        #count frequency
-        wdict = {}
-        for w in words:
-            if w in wdict:
-                wdict[w] += 1
-            else:
-                wdict[w] = 1
-        #get vocab and freq array
-        vocab = []
-        queryvector = []
-        for w in wdict:
-            vocab.append(w)
-            queryvector.append(wdict[w])
-
-        files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
-        tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
-        tf = tf_vectorizer.fit_transform(documents)
-        doc_term_matrix = tf.todense()
-        # show counterVectorizer result 
-        # df = pd.DataFrame(doc_term_matrix,
-        #               columns=tf_vectorizer.get_feature_names(),
-        #               index=files)
-        # print(df)
-        similarity_results = []
-        for vector in doc_term_matrix:
-            # print(cosine_similarity([queryvector], vector))
-            sim_result = cosine_similarity([queryvector], vector)
-            similarity_results.append(sim_result[0][0])
-
-        return similarity_results
-
-
 def main():
     n_top_words = 10
     folder_path = "./articles/"
@@ -197,7 +160,6 @@ def main():
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
     # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
     results = calculate_cosine_similarity(documents, folder_path, query_path)
-    
     print(articles_in_descending_relevance(folder_path, results))
 
 
