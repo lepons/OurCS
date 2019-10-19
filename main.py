@@ -3,6 +3,7 @@ from os.path import isfile, join
 import re
 import collections
 
+from numpy.linalg import norm
 from sklearn.metrics.pairwise import cosine_similarity
 from nltk.stem.porter import *
 from sklearn.feature_extraction import text
@@ -54,32 +55,32 @@ def get_document_with_cos_rel(document_name, folder_path, queryvector):
 
 
 
-
-# Non Util Functions
-def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
-    #get base vector
-
+def get_queryvector(query_file):
+    """
+    Attributes: query_file path
+    Returns: vocab list , query vector (as a list)
+    """
     with open(query_file) as file:
-        words = file.read().split()
-        #count frequency
-        wdict = {}
-        for w in words:
-            if w in wdict:
-                wdict[w] += 1
-            else:
-                wdict[w] = 1
-        #get vocab and freq array
+        words = file.read().split('\n')
+        # create word vector for query
         vocab = []
         queryvector = []
-        for w in wdict:
-            vocab.append(w)
-            queryvector.append(wdict[w])
+        numwords = 0
+        for w in words:
+            winfo = w.split(' ')
+            if (len(winfo) == 2):
+                vocab.append(winfo[0])
+                queryvector.append(winfo[1])
+    return vocab,queryvector
 
-        files = get_document_names(folder_path)
+
+def calculate_cosine_similarity(documents, folder_path, query_file, no_features=1000):
+        vocab, queryvector = get_queryvector(query_file)
+        files = [f for f in listdir(folder_path) if isfile(join(folder_path, f))]
         tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features, vocabulary = vocab)
         tf = tf_vectorizer.fit_transform(documents)
         doc_term_matrix = tf.todense()
-        # show counterVectorizer result 
+        # show counterVectorizer result
         # df = pd.DataFrame(doc_term_matrix,
         #               columns=tf_vectorizer.get_feature_names(),
         #               index=files)
@@ -129,11 +130,15 @@ def build_query(model, feature_names, no_top_words, min_appearance=2):
     counter = collections.Counter(words_ls)
     counter = trim_counter(counter, min_appearance=2)
 
+    # normalize the counts
+    L2_norm = norm([value for _, value in counter.items()])
+
     # create a query text file
     file_path = "./query.txt"
     File_object = open(file_path, 'w')
-    for key in counter:
-        File_object.writelines(key + '\n')
+    for key, value in counter.items():
+        # compute the normalized value and add to query
+        File_object.writelines(key + ' ' + str(value/L2_norm) + '\n')
     File_object.close()
     return
 
@@ -151,7 +156,8 @@ def get_LDA_topics(documents, no_features=1000, no_topics=10, no_top_words=10, d
         LDA model
     """
     # vectorize the documents
-    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "fri", "httpsaboutjstororgterms"]
+    my_additional_stop_words = ["et", "utc", "use", "oct", "utc", "al", "les", "file", "le", "la", "fri", "divis",
+                                "download", "httpsaboutjstororgterms", "new"]
     tf_vectorizer = CountVectorizer(max_df=0.95, min_df=2, max_features=no_features,
                                     stop_words = text.ENGLISH_STOP_WORDS.union(my_additional_stop_words))
     tf = tf_vectorizer.fit_transform(documents)
@@ -175,10 +181,8 @@ def main():
     lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
     build_query(lda, tf_feature_names, no_top_words=n_top_words)
     # get_LDA_topics(documents, no_topics=25, no_top_words=20, display=1)
-    results = calculate_cosine_similarity(documents, folder_path, query_path)
-    
+    results = calculate_cosine_similarity(documents, folder_path, query_path)    
     print(get_articles_with_descending_relevance(folder_path, results))
-
 
 if __name__ == "__main__":
     main()
