@@ -36,7 +36,6 @@ def write_abstract(urls_file):
 
 def main():
     urls_file = open("URL.txt","r")
-
     write_abstract(urls_file)
 
 if __name__ == '__main__':
