@@ -1,0 +1,1 @@
+This article describes an educational environment for the analysis and synthesis of passive filters in lumped parameters that combines the advantages of the multimedia tutorials with the simulation software. © 2002 Wiley Periodicals, Inc. Comput Appl Eng Educ 9: 193–207, 2001; Published online in Wiley InterScience (www.interscience.wiley.com.); DOI 10.1002/cae.10007

@@ -1,1 +1,0 @@
-The capacitance of a parallel‐plate capacitor made of a dielectric thin‐film helicoidal bianisotropic medium (TFHBM) is estimated using the quasielectrostatic approximation. The structural handedness and the local biaxiality of the TFHBM do not matter for the chosen application, but the tilt angle does. ©1999 John Wiley & Sons, Inc. Microwave Opt Technol Lett 21: 286–288, 1999.
