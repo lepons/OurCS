@@ -32,7 +32,7 @@ def rankLines(path):
     data = sorted(data, key=lambda key: key[1], reverse=True)
     comb_ls = []
     for key, freq in data:
-        if float(freq) > 0.04:
+        if float(freq) > 0.05:
             comb_ls.append((key,float(freq)))
     return comb_ls
 
@@ -187,7 +187,7 @@ def main():
     file_path = "./query.txt"
     keywords = rankLines(file_path)
     DOI_ls = []
-    for i in range(20):
+    for i in range(50):
         query_ls = getQueries(keywords)
         DOI_ls.extend(query_crossref(query_ls))
     write_to_file(DOI_ls, "./URL.txt")

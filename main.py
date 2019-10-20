@@ -131,7 +131,7 @@ def build_query(model, feature_names, no_top_words, min_appearance=2):
     L2_norm = norm([value for _, value in counter.items()])
 
     # create a query text file
-    file_path = "./query.txt"
+    file_path = "./new_neg_query.txt"
     File_object = open(file_path, 'w')
     for key, value in counter.items():
         # compute the normalized value and add to query
@@ -175,21 +175,21 @@ def avgcossim(results):
     return total/len(results)
 
 def main():
-    threshold = 0.6
+    # threshold = 0.6
     n_top_words = 10
-    folder_path = "./articles/"
-    query_path = "./query.txt"
-    data_path = "./kagglenews/"
+    folder_path = "./new_negatives/"
+    query_path = "./new_neg_query.txt"
+    # data_path = "./kagglenews/"
 
     file_list = get_document_names(folder_path)
     documents = get_documents_content(file_list, folder_path)
 
-    data_list = get_document_names(data_path)
-    data_documents = get_documents_content(data_list, data_path)
-    # lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
-    # build_query(lda, tf_feature_names, no_top_words=n_top_words)
+    # data_list = get_document_names(data_path)
+    # data_documents = get_documents_content(data_list, data_path)
+    lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
+    build_query(lda, tf_feature_names, no_top_words=n_top_words)
 
-    vocab, queryvector = get_queryvector(query_path)
+    # vocab, queryvector = get_queryvector(query_path)
     # print(vocab)
     # # against the training set
     # print("AGAINST TRAINING SET")
@@ -200,17 +200,17 @@ def main():
     # print(avgcossim(sorted_results))
 
     # with the kaggle dataset first 1000
-    print("AGAINST KAGGLE FIRST 1000")
-    results = calculate_cosine_similarity(data_documents, vocab, queryvector)
-    sorted_results = get_articles_with_descending_relevance(data_list, results)
-    above_thres = []
-    f = open("./cos_rel_results_for_kagglenews","w")
-    for r in sorted_results:
-        # if (r[0] > threshold):
-        f.write(str(r)+"\n")            
-        above_thres.append(r)
-        print(r)
-    f.close()
+    # print("AGAINST KAGGLE FIRST 1000")
+    # results = calculate_cosine_similarity(data_documents, vocab, queryvector)
+    # sorted_results = get_articles_with_descending_relevance(data_list, results)
+    # above_thres = []
+    # f = open("./cos_rel_results_for_kagglenews","w")
+    # for r in sorted_results:
+    #     # if (r[0] > threshold):
+    #     f.write(str(r)+"\n")            
+    #     above_thres.append(r)
+    #     print(r)
+    # f.close()
 
     # print("AGAINST EVENT REGISTRY 631")
     # file_list_from_er = get_document_names("./news_articles/")

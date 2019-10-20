@@ -1,0 +1,18 @@
+
+list of negative er news
+0.7273847567987533, 'Push back on double prejudice of ageism on top of sexism.txt'
+
+
+0.7074682388283686, 'Vagabon Releases Video for New Track "Every Woman" - Fall Tour With Angel Olsen - Grimy Goods.txt'
+
+
+0.7049953070421021, 'Letters from the synod 2019  October 18  Catholic Herald.txt'
+
+0.6992091141053959, 'Azerbaijani press Azerbaijan did not support InterParliamentary Unions draft resolution against Turkey.txt'
+
+
+0.6769921859751585, 'Creme Fatale on conquering drag as a cis woman and why Drag Race "isn\'t an option".txt'
+
+0.6570267279581502, 'Outlook SpeakOut 2019: Live Updates.txt'
+
+0.6407644744546088, 'So Thats Why Your Bra Size Is Different From Store To Store.txt'
