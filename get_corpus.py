@@ -1,9 +1,9 @@
-from newsapi import NewsApiClient
+# from newsapi import NewsApiClient
 import sys
 import requests
 import random
 
-newsapi = NewsApiClient(api_key='52ca22c3c26e415f8050fb5cacbe0d92')
+# newsapi = NewsApiClient(api_key='52ca22c3c26e415f8050fb5cacbe0d92')
 
 def write_to_file(ls, file_path):
     with open(file_path, "w") as f:
@@ -25,7 +25,7 @@ def rankLines(path):
     data = sorted(data, key=lambda key: key[1], reverse=True)
     comb_ls = []
     for key, freq in data:
-        if float(freq) > 0.04:
+        if float(freq) > 0.05:
             comb_ls.append((key,float(freq)))
     return comb_ls
 
@@ -86,15 +86,15 @@ def get_articles(query,folder_path):
 
 
 if __name__ == "__main__":
-    query_topics = ['occupation sexism', 'women in work', 'glass ceiling', 'gender discrimination', 'history of women employment']
-    path = 'newscorpus/'
-    if (len(sys.argv) > 1):
-        path = sys.argv[1]
-    get_articles(query_topics, path)
+    # query_topics = ['occupation sexism', 'women in work', 'glass ceiling', 'gender discrimination', 'history of women employment']
+    # path = 'newscorpus/'
+    # if (len(sys.argv) > 1):
+    #     path = sys.argv[1]
+    # get_articles(query_topics, path)
     file_path = "./query.txt"
     keywords = rankLines(file_path)
     DOI_ls = []
-    for i in range(20):
+    for i in range(50):
         query_ls = getQueries(keywords)
         DOI_ls.extend(query_crossref(query_ls))
     write_to_file(DOI_ls, "./URL.txt")
