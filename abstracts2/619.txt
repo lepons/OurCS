@@ -1,0 +1,1 @@
+Photolyase‐catalyzed repair of pyrimidine (6‐4) photoadducts was modeled with synthetic, covalently linked flavin–oxetane 1. The repair reaction (oxetane splitting) requires the reduced flavin in its deprotonated form. The key step of the repair reaction involves an electron transfer from the flavin to the oxetane.
