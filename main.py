@@ -186,10 +186,11 @@ def main():
 
     data_list = get_document_names(data_path)
     data_documents = get_documents_content(data_list, data_path)
-    lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
-    build_query(lda, tf_feature_names, no_top_words=n_top_words)
+    # lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
+    # build_query(lda, tf_feature_names, no_top_words=n_top_words)
 
     vocab, queryvector = get_queryvector(query_path)
+    # print(vocab)
     # # against the training set
     # print("AGAINST TRAINING SET")
     # results = calculate_cosine_similarity(documents, vocab, queryvector)
@@ -214,11 +215,31 @@ def main():
     results = calculate_cosine_similarity(documents_from_er, vocab, queryvector)
     sorted_results = get_articles_with_descending_relevance(file_list_from_er, results)
     above_thres = []
+    f = open("./cos_rel_results_for_ernews","w")        
     for r in sorted_results:
         # if (r[0] > threshold):
+        f.write(str(r)+"\n")            
         above_thres.append(r)
         print(r)
+    f.close()
+
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
+
+    # print("AGAINST PAPER ABSTRACT 544")
+    # file_list_from_ab = get_document_names("./abstracts/")
+    # documents_from_ab = get_documents_content(file_list_from_ab, "./abstracts/")
+    # results = calculate_cosine_similarity(file_list_from_ab, vocab, queryvector)
+    # sorted_results = get_articles_with_descending_relevance(file_list_from_ab, results)
+    # above_thres = []
+    # for r in sorted_results:
+    #     # if (r[0] > threshold):
+    #     above_thres.append(r)
+    #     print(r)
+    # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
+
+    # f = open("./cos_rel_results_for_ernews","w")
+    # f.write(r+"\n")            
+    # f.close()
 
 if __name__ == "__main__":
     main()
