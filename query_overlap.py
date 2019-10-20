@@ -1,8 +1,6 @@
-file = open('query.txt','r')
-filepos = open('new_pos_query.txt','r')
-fileneg = open('new_neg_query.txt','r')
-sameoutput = open('same_query.txt','w')
-diffoutput = open('diff_query.txt','w')
+
+negoutput = open('same_neg_query.txt','w')
+posoutput = open('same_pos_query.txt','w')
 
 diff = set()
 same = set()
@@ -15,30 +13,31 @@ with open('query.txt') as file:
         info =  line.split(' ')
         if (len(info) > 1):
             query.add(info[0])
-# different words
-with open('new_neg_query.txt') as file:
-    neg = file.read().split('\n')
+# print(query)
+# same words
+with open('new_neg_query.txt') as negfile:
+    neg = negfile.read().split('\n')
     for line in neg:
         info =  line.split(' ')
         if (len(info) > 1):
             negquery.add(info[0])
-    diff = query.difference(negquery)
+# print(negquery)
+same_neg = query.intersection(negquery)
+# print(same_neg)
 
 # same words
-with open('new_pos_query.txt') as file:
-    pos = file.read().split('\n')
-    for line in neg:
+with open('new_pos_query.txt') as posfile:
+    pos = posfile.read().split('\n')
+    for line in pos:
         info =  line.split(' ')
         if (len(info) > 1):
             posquery.add(info[0])
-
-same = query.intersection(posquery)
+# print(posquery)
+same_pos = query.intersection(posquery)
+# print(same_pos)
 
 #output
-sameoutput.write('\n'.join(same))
-sameoutput.close()
-diffoutput.write('\n'.join(diff))
-diffoutput.close()
-file.close()
-filepos.close()
-fileneg.close()
+negoutput.write('\n'.join(same_neg))
+negoutput.close()
+posoutput.write('\n'.join(same_pos))
+posoutput.close()
