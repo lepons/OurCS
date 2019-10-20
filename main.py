@@ -176,20 +176,20 @@ def avgcossim(results):
 
 def main():
     # threshold = 0.6
-    n_top_words = 10
-    folder_path = "./new_negatives/"
-    query_path = "./new_neg_query.txt"
+    # n_top_words = 10
+    # folder_path = "./new_negatives/"
+    query_path = "./query.txt"
     # data_path = "./kagglenews/"
 
-    file_list = get_document_names(folder_path)
-    documents = get_documents_content(file_list, folder_path)
+    # file_list = get_document_names(folder_path)
+    # documents = get_documents_content(file_list, folder_path)
 
     # data_list = get_document_names(data_path)
     # data_documents = get_documents_content(data_list, data_path)
-    lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
-    build_query(lda, tf_feature_names, no_top_words=n_top_words)
+    # lda, tf_feature_names = get_LDA_topics(documents, no_topics=100, no_top_words=n_top_words, display=0)
+    # build_query(lda, tf_feature_names, no_top_words=n_top_words)
 
-    # vocab, queryvector = get_queryvector(query_path)
+    vocab, queryvector = get_queryvector(query_path)
     # print(vocab)
     # # against the training set
     # print("AGAINST TRAINING SET")
@@ -228,7 +228,7 @@ def main():
 
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
-    # print("AGAINST PAPER ABSTRACT 544")
+    # print("AGAINST PAPER ABSTRACT_VER1.0 544")
     # file_list_from_ab = get_document_names("./abstracts/")
     # documents_from_ab = get_documents_content(file_list_from_ab, "./abstracts/")
     # results = calculate_cosine_similarity(file_list_from_ab, vocab, queryvector)
@@ -240,6 +240,19 @@ def main():
     #     print(r)
     # print(get_document_with_cos_rel('Gender history and labour history.txt', folder_path, vocab, queryvector))
 
+    print("AGAINST PAPER ABSTRACTS2 623")
+    file_list_from_ab2 = get_document_names("./abstracts2/")
+    documents_from_ab2 = get_documents_content(file_list_from_ab2, "./abstracts2/")
+    results = calculate_cosine_similarity(file_list_from_ab2, vocab, queryvector)
+    sorted_results = get_articles_with_descending_relevance(file_list_from_ab2, results)
+    above_thres = []
+    f = open("./cos_rel_results_for_abstracts","w")        
+    for r in sorted_results:
+        # if (r[0] > threshold):
+        f.write(str(r)+"\n")            
+        above_thres.append(r)
+        print(r)
+    f.close()
     # f = open("./cos_rel_results_for_ernews","w")
     # f.write(r+"\n")            
     # f.close()
